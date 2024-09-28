@@ -91,10 +91,10 @@ li {
   display: inline-block;
 }
 
+/* ---------- ADVANTAGES ---------- */
 .advantages {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: antiquewhite;
 }
 
 .advantages-list {
@@ -108,4 +108,40 @@ li {
   display: flex;
   gap: 128px;
   align-items: center;
+}
+
+.advantages-item-text {
+  width: 633px;
+}
+
+.li1 {
+  margin-left: 109px;
+}
+
+.li2 {
+  margin-left: 197px;
+}
+
+.li3 {
+  margin-left: 235px;
+}
+
+/* Не належить жодному елементу. Зразок для картки секції доставки */
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+
+  width: 302px;
+  height: 114px;
+
+  background: #ffffff;
+  border-radius: 24px;
+
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #1f1f1f;
 }
