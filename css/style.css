@@ -145,3 +145,28 @@ li {
   text-align: center;
   color: #1f1f1f;
 }
+
+.footer-links {
+  width: 302px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-wrap: wrap;
+  height: 80px;
+  width: 100%;
+}
+
+.footer-link {
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 150%;
+  color: #404040;
+}
