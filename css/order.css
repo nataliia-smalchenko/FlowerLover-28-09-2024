@@ -1,0 +1,99 @@
+.order {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url("../images/order/Frame\ 47452.png"),
+    url("../images/order/Frame\ 47453.png");
+  background-repeat: no-repeat;
+  background-position: top 120px left 80px, top 120px right 80px;
+}
+.order-form {
+  width: 628px;
+  /* Після додавання інших полів висоту варто прибрати взагалі */
+  height: 817px;
+  /* Внутрішні відступи: */
+  padding: 52px 56px;
+  /* Щоб правильно у вказану ширину входили 
+  також ширина рамки та внутрішні відступи (paddings)*/
+  box-sizing: border-box;
+  /* Рамка форми та заокруглення країв*/
+  border-radius: 32px;
+  border: 1px solid var(--Orange-3, #fc640c);
+  /* Вирівнювання та відступи елементів всередині */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+  /* Центрування по ширині */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.order-title {
+  /* Шрифт */
+  font-family: "Caveat", cursive;
+  /* Товщина літер */
+  font-weight: 700;
+  /* Розмір тексту */
+  font-size: 36px;
+  /* Висота тексту */
+  line-height: 100%;
+  /* Колір тексту */
+  color: #fc640c;
+}
+
+.order-input-wrapper {
+  /* Щоб контейнер займав усю доступну йому ширину */
+  width: 100%;
+  display: flex;
+  /* Розташування у стовпчик */
+  flex-direction: column;
+  /* Розтягування внутрішніх елементів по ширині */
+  align-items: stretch;
+  /* Відступи для внутрішніх елементів */
+  gap: 4px;
+}
+
+.order-input {
+  padding: 8px 16px;
+  /* Заокруглення кутів */
+  border-radius: 8px;
+  /* Рамка */
+  border: 1px solid #1f1f1f;
+  /* Фоновий колір */
+  background-color: #fff;
+  /* Шрифтові стилі */
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/* Колір тексту плейсхолдера, 
+тексту, який відображається у полі, якщо воно пусте */
+.order-input::placeholder {
+  color: #bfbfbf;
+}
+
+/* Прибираємо стрілки всередині */
+.order-input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.order-textarea {
+  height: 76px;
+  resize: none;
+}
+
+.order-button {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #fc640c;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
+  border: none;
+}

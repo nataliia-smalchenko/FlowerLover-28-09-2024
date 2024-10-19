@@ -1,0 +1,33 @@
+.advantages {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.advantages-list {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.advantages-item {
+  display: flex;
+  gap: 128px;
+  align-items: center;
+}
+
+.advantages-item-text {
+  width: 633px;
+}
+
+.li1 {
+  margin-left: 109px;
+}
+
+.li2 {
+  margin-left: 197px;
+}
+
+.li3 {
+  margin-left: 235px;
+}

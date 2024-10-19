@@ -84,46 +84,56 @@
         </li>
       </ul>
     </section>
-    <section class="section">
-      <form>
-        <label for="name">Your name:</label>
-        <input type="text" name="name" id="name" required />
-        <label>
-          Your phone:
-          <input type="tel" name="phone" placeholder="+380XXXXXXXX" required />
-        </label>
-        <label for="num">Number of bouquets:</label>
-        <input
-          type="number"
-          name="number_of_bouquets"
-          value="1"
-          id="num"
-          required
-        />
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="3"
-          placeholder="Enter comment"
-        ></textarea>
-        <button>Order a bouquet</button>
+    <section class="order section">
+      <form class="order-form">
+        <h2 class="order-title">Order your boquets</h2>
+        <div class="order-input-wrapper">
+          <label for="name">Your name:</label>
+          <input
+            class="order-input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="order-input-wrapper">
+          <label> Your phone:</label>
+          <input
+            class="order-input"
+            type="tel"
+            name="phone"
+            placeholder="+380XXXXXXXX"
+            required
+          />
+        </div>
+        <div class="order-input-wrapper">
+          <label for="num">Number of bouquets:</label>
+          <input
+            class="order-input"
+            type="number"
+            name="number_of_bouquets"
+            value="1"
+            id="num"
+            required
+          />
+        </div>
+        <div class="order-input-wrapper">
+          <label for="comment">Comment:</label>
+          <textarea
+            class="order-input order-textarea"
+            name="comment"
+            id="comment"
+            cols="30"
+            rows="3"
+            placeholder="Enter comment"
+          ></textarea>
+        </div>
+        <button class="order-button">Order a bouquet</button>
       </form>
     </section>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <footer>
+    <footer class="section">
       <div class="footer-links">
         <h2>FloverLover</h2>
         <ul class="footer-list">
